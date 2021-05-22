@@ -28,6 +28,8 @@ function searchBttn(event) {
 
 function showConditions(response) {
   document.querySelector(".City").innerHTML = response.data.name;
+  document.querySelector(".Description").innerHTML =
+    response.data.weather[0].description;
   document.querySelector(".Temperature").innerHTML = Math.round(
     response.data.main.temp
   );

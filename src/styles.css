@@ -50,16 +50,20 @@ section .Day {
   position: relative;
   top: 60px;
 }
+
 .City,
 .Day,
+.Description,
 .Temperature,
 .Conditions {
   position: relative;
   top: 70px;
   color: purple;
 }
+
 .City,
-.Day {
+.Day,
+.Description {
   font-size: 25px;
 }
 
