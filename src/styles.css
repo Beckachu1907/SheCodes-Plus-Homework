@@ -71,7 +71,7 @@ section .Day {
   color: rgb(211, 211, 38);
   font-size: 60px;
   position: relative;
-  left: 220px;
+  left: 210px;
 }
 
 .Temperature {
