@@ -37,6 +37,12 @@ function showConditions(response) {
   document.querySelector(".Wind").innerHTML = Math.round(
     response.data.wind.speed
   );
+  let emojiElement = document.querySelector("#Main-Emoji");
+  emojiElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  emojiElement.setAttribute("alt", response.data.weather[0].description);
 }
 
 function searchLocation(position) {
