@@ -91,9 +91,3 @@ form.addEventListener("submit", searchBttn);
 
 let currentBttn = document.querySelector(".btn-primary");
 currentBttn.addEventListener("click", currentLocation);
-
-let toCelsius = document.querySelector("#celsius-click");
-toCelsius.addEventListener("click", celsius);
-
-let toFahrenheit = document.querySelector("#fahrenheit-click");
-toFahrenheit.addEventListener("click", fahrenheit);
