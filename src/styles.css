@@ -5,7 +5,8 @@ body {
     rgb(214, 224, 255) 37.2%,
     #fea8a8 137.3%
   );
-  padding: 13px 30px;
+  padding: 26px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -28,27 +29,11 @@ h2 {
   text-align: center;
 }
 
-section {
-  position: relative;
-  margin: auto;
-  width: 50%;
-  bottom: 70px;
-  left: 70px;
-}
-
 footer {
   color: red;
   text-align: center;
   position: relative;
-  bottom: 10px;
-}
-
-section .Emoji {
-  font-size: 60px;
-  position: relative;
-  top: 50px;
-  right: 10px;
-  color: rgb(252, 252, 19);
+  top: 25px;
 }
 
 .City,
@@ -83,11 +68,27 @@ section .Emoji {
   bottom: 50px;
 }
 
-.Min-Temperature,
-.Max-Temperature,
+.container-forecast {
+  position: relative;
+  width: 50%;
+  top: 2px;
+  bottom: 70px;
+  left: 50px;
+  color: blue;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .Future-Day {
   font-size: 20px;
+}
+
+.Future-Emoji {
   position: relative;
-  top: 50px;
-  color: blue;
+  top: 3px;
+}
+
+.Max-Temperature,
+.Min-Temperature {
+  font-size: 12px;
 }
