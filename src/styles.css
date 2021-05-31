@@ -3,96 +3,88 @@ body {
   background: linear-gradient(
     180.3deg,
     rgb(214, 224, 255) 37.2%,
-    rgb(254, 168, 168) 137.3%
+    #fea8a8 137.3%
   );
-  margin: 0 auto;
-  padding: 0 31px;
-  border: 4mm ridge rgba(207, 6, 22, 0.6);
+  padding: 13px 30px;
 }
 
 h1 {
   color: red;
-  font-size: 50px;
-  position: absolute;
-  left: 20px;
+  font-size: 45px;
+  text-align: center;
 }
 
 form {
   position: relative;
-  top: 60px;
+  padding: 20px 20px;
   font-size: 25px;
+  text-align: center;
 }
 
 h2 {
   position: relative;
-  top: 80px;
+  bottom: 20px;
   color: red;
+  text-align: center;
 }
 
 section {
-  text-align: center;
-  padding: 57.5px 30px;
+  position: relative;
+  margin: auto;
+  width: 50%;
+  bottom: 70px;
+  left: 70px;
 }
 
 footer {
-  text-align: center;
   color: red;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
 }
 
 section .Emoji {
   font-size: 60px;
   position: relative;
   top: 50px;
+  right: 10px;
   color: rgb(252, 252, 19);
-}
-
-section .Day {
-  position: relative;
-  top: 60px;
 }
 
 .City,
 .Day,
 .Description,
-.Temperature,
 .Conditions {
   position: relative;
-  top: 70px;
+  top: 25px;
   color: purple;
-}
-
-.City,
-.Day,
-.Description {
   font-size: 25px;
-}
-
-#Main-Emoji {
-  color: rgb(211, 211, 38);
-  font-size: 60px;
-  position: relative;
-  left: 210px;
+  text-align: center;
 }
 
 .Temperature {
-  font-size: 39px;
   position: relative;
-  top: 80px;
-  left: 35px;
+  top: 45px;
+  left: 20px;
+  font-size: 50px;
   color: blue;
 }
 
 .units {
   color: blue;
   position: relative;
-  right: -40px;
-  top: 55px;
-}
-.Conditions {
-  font-size: 20px;
+  right: -20px;
+  top: 20px;
 }
 
-.Future-Temperature,
+#Main-Emoji {
+  position: relative;
+  left: 250px;
+  bottom: 50px;
+}
+
+.Min-Temperature,
+.Max-Temperature,
 .Future-Day {
   font-size: 20px;
   position: relative;

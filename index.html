@@ -20,13 +20,22 @@
   </head>
 
   <body>
-    <div class="container">
       <header>
         <h1>
           <strong> Rebecca's Weather App🌡</strong>
         </h1>
       </header>
       <br />
+         <form class="Search-bar">
+        <input
+          type="text"
+          class="City-Search"
+          placeholder="Search a City"
+          autofocus="on"
+        />
+        <button type="button" class="btn btn-danger">Search</button>
+        <button type="button" class="btn btn-primary">Current</button>
+      </form>
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
@@ -37,7 +46,7 @@
               <p>Today at 15:21</p>
             </div>
              <div class="Description">
-              <p>Weather Description</p>
+              <p>Sunny</p>
             </div>
           </div>
           <div class="col-sm-4">
@@ -47,10 +56,12 @@
                   <a href="#" class="active" id="celsius-click">°C</a> /
                   <a href="#" class="active" id="fahrenheit-click">°F</a>   
             </div>
-             <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="rain" class="Emoji" id="Main-Emoji"  />
+             <img src="http://openweathermap.org/img/wn/10d@2x.png" width="110" alt="rain" class="Emoji" id="Main-Emoji"  />
           </div>
           <div class="col-sm-4">
             <div class="Conditions">
+              Weather Conditions:
+              <br />
               Wind: <span class="Wind">11</span>mph
               <br />
               Humidity:<span class="Humidity"> 48</span>%
@@ -58,18 +69,6 @@
           </div>
         </div>
       </div>
-      <form>
-        <input
-          type="text"
-          class="City-Search"
-          placeholder="Search a City"
-          autofocus="on"
-        />
-        <button type="button" class="btn btn-danger">Search</button>
-        <button type="button" class="btn btn-primary">Current</button>
-        
-        </div>
-      </form>
       <br />
       <h2>
         <strong>Forecast for the next 5 days</strong>
@@ -82,45 +81,48 @@
               <br />
               <span class="Emoji">⛅</span>
               <br />
-              <span class="Future-Temperature"> 11°C </span>
+              <span class="Min-Temperature"> 11°C </span>
+              <span class="Max-Temperature"> 15°C </span>
             </div>
             <div class="col-2">
               <span class="Future-Day"> Tue </span>
               <br />
               <span class="Emoji">🌦</span>
               <br />
-              <span class="Future-Temperature"> 12°C </span>
+              <span class="Min-Temperature"> 12°C </span>
+              <span class="Max-Temperature"> 16°C </span>
             </div>
             <div class="col-2">
               <span class="Future-Day"> Wed </span>
               <br />
               <span class="Emoji">⛅</span>
               <br />
-              <span class="Future-Temperature"> 13°C </span>
+              <span class="Min-Temperature"> 13°C </span>
+              <span class="Max-Temperature"> 16°C </span>
             </div>
             <div class="col-2">
               <span class="Future-Day"> Thu </span>
               <br />
               <span class="Emoji">🌧</span>
               <br />
-              <span class="Future-Temperature"> 14°C </span>
+              <span class="Min-Temperature"> 14°C </span>
+              <span class="Max-Temperature"> 16°C </span>
             </div>
             <div class="col-2">
               <span class="Future-Day"> Fri </span>
               <br />
               <span class="Emoji">🌧</span>
               <br />
-              <span class="Future-Temperature"> 12°C </span>
+              <span class="Min-Temperature"> 12°C </span>
+              <span class="Max-Temperature"> 16°C </span>
             </div>
           </div>
         </div>
       </section>
     </div>
-    <script src="src/script.js" ></script>
-    
-    <br />
     <footer>
       <small>Coded by Rebecca Cheung, for SheCodes Plus Final Project/<a href="https://github.com/Beckachu1907/SheCodes-Plus-Week-6-Homework"  target="_blank">Github Repository</a></small>
     </footer>
+    <script src="src/script.js" ></script>
   </body>
 </html>
